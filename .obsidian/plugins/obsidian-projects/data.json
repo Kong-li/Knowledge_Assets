@@ -1,0 +1,728 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "知识结构": {},
+        "type": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "Configuration/Template/书籍元 模板.md",
+        "Configuration/Template/项目元 模板.md",
+        "Configuration/Template/知识笔记 模板.md",
+        "Configuration/Template/日记.excalidraw.md",
+        "Configuration/Template/AI Chat.md"
+      ],
+      "excludedNotes": [
+        ""
+      ],
+      "isDefault": true,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "Material",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "出版年份",
+              "豆瓣评分",
+              "关键词",
+              "书皮封面",
+              "知识结构",
+              "作者",
+              "excalidraw-plugin",
+              "goodreads评分",
+              "status",
+              "tags",
+              "type",
+              "priority"
+            ],
+            "fieldConfig": {}
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "019ae376-639c-42fb-a349-a07e91c5f198",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "keywords"
+            ],
+            "groupByField": "Category",
+            "columns": {
+              "未设置状态": {
+                "weight": 0
+              },
+              "Blog": {
+                "weight": 1
+              },
+              "Chat": {
+                "weight": 2
+              },
+              "Note": {
+                "weight": 3
+              },
+              "Draw": {
+                "weight": 4
+              },
+              "Diary": {
+                "weight": 5
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              },
+              {
+                "field": "path",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "Configuration/Template/"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Date",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "0cfcee39-885f-440f-9ddf-898a3ea19943",
+          "name": "笔记类型",
+          "type": "board"
+        },
+        {
+          "config": {
+            "groupByField": "type",
+            "includeFields": [
+              "tags"
+            ]
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "eb7faf0b-5060-4f07-9cdc-654feef09b51",
+          "name": "学科",
+          "type": "board"
+        },
+        {
+          "config": {
+            "groupByField": "status"
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "type",
+                "operator": "is",
+                "enabled": true,
+                "value": "项目元"
+              },
+              {
+                "field": "name",
+                "operator": "not-contains",
+                "enabled": true,
+                "value": "模板"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "1a92f305-4bbd-47eb-878f-1d6cdd039349",
+          "name": "Project管理",
+          "type": "board"
+        },
+        {
+          "config": {
+            "coverField": "书皮封面",
+            "includeFields": [
+              "豆瓣评分",
+              "出版年份",
+              "tags",
+              "status",
+              "读书笔记"
+            ],
+            "fitStyle": "contain",
+            "cardWidth": 200
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-empty",
+                "enabled": false
+              },
+              {
+                "field": "type",
+                "operator": "is",
+                "enabled": true,
+                "value": "书籍元"
+              },
+              {
+                "field": "path",
+                "operator": "is-not",
+                "enabled": true,
+                "value": "Configuration/Template/书籍元 模板.md"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "豆瓣评分",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "c4c20481-99d2-4a45-9058-590ce112793d",
+          "name": "书籍",
+          "type": "gallery"
+        },
+        {
+          "config": {},
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a69ff3ee-cf66-435e-8159-2b126b4c64d5",
+          "name": "看板",
+          "type": "board"
+        }
+      ],
+      "id": "1be54149-42af-4588-aa4d-155074e2d734",
+      "name": "总览"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#计算机",
+          "hierarchy": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 240
+              }
+            },
+            "orderFields": [
+              "name",
+              "path",
+              "出版年份",
+              "豆瓣评分",
+              "读书笔记",
+              "书皮封面",
+              "知识结构",
+              "作者",
+              "aliases",
+              "goodreads评分",
+              "keywords",
+              "Keywords",
+              "source",
+              "status",
+              "tags",
+              "type"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": false,
+                "value": "[]"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "70c3d816-a0f1-4251-a6a9-324832290394",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {
+            "includeFields": [
+              "关键词"
+            ],
+            "groupByField": "type"
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "tags",
+                "operator": "has-any-of",
+                "enabled": false,
+                "value": "[]"
+              },
+              {
+                "field": "关键词",
+                "operator": "has-any-of",
+                "enabled": true,
+                "value": "[\"Docker\"]"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "aec398a1-5ea3-4421-8c03-636a9d116b85",
+          "name": "看板",
+          "type": "board"
+        }
+      ],
+      "id": "473c5a47-04e7-4c6c-8fbf-39aa51dc38cd",
+      "name": "计算机"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Configuration/Template/Note.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "2 Notes",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "2 Notes",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "Category",
+              "Status",
+              "tags",
+              "type",
+              "Type"
+            ],
+            "fieldConfig": {}
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-empty",
+                "enabled": false
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "dcce0e93-b2fa-4629-a85e-366fc85424fb",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Type",
+            "columns": {
+              "踩坑记录": {
+                "records": [
+                  "2 Notes/Dify的部署.md",
+                  "2 Notes/Open webui.md"
+                ]
+              },
+              "知识笔记": {
+                "records": [
+                  "2 Notes/交易复盘.md",
+                  "2 Notes/贫穷是个系统性困境.md",
+                  "2 Notes/生产力进步和分配机制.md",
+                  "2 Notes/涌现.md",
+                  "2 Notes/AI学习.md",
+                  "2 Notes/Docker服务中配置本机的ip.md",
+                  "2 Notes/Poetry使用笔记.md"
+                ]
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "04f3f54e-fb06-415a-b723-b631b775435b",
+          "name": "类型",
+          "type": "board"
+        }
+      ],
+      "id": "41410cf7-0c0b-4364-8689-3172c42e27df",
+      "name": "Notes"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "Configuration/Template/AI Chat.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1 Resources/4 Chat",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "1 Resources/4 Chat",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 193
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "name",
+                "order": "asc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "2ec0d479-8c05-4e4e-9a24-3a9a4bea48da",
+          "name": "表格",
+          "type": "table"
+        },
+        {
+          "config": {
+            "groupByField": "Type"
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b9c04997-a085-465b-8a9d-274cab69c55e",
+          "name": "看板",
+          "type": "board"
+        }
+      ],
+      "id": "832ff64f-eb8b-45ae-9eef-808f6b75d54f",
+      "name": "Chat"
+    },
+    {
+      "fieldConfig": {
+        "Type": {
+          "options": [],
+          "richText": true
+        },
+        "Category": {
+          "options": [
+            "Blog"
+          ],
+          "richText": false
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "Configuration/Template/Blog.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "1 Resources/2 Blog",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "1 Resources/2 Blog",
+      "views": [
+        {
+          "config": {
+            "orderFields": [
+              "name",
+              "path",
+              "Category",
+              "Date",
+              "Status",
+              "tags",
+              "Type",
+              "Url",
+              "\rUrl",
+              "domain",
+              "site"
+            ],
+            "fieldConfig": {
+              "name": {
+                "width": 356
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": [
+              {
+                "field": "Date",
+                "order": "desc",
+                "enabled": true
+              }
+            ]
+          },
+          "id": "9d2fc8de-1ad6-4bdd-9e6b-65c089ebe7f0",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "353ad98c-76ac-4517-ab1d-e19d5c5ff415",
+      "name": "Blog"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Obsidian-vaults",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "path": {
+                "width": 556
+              },
+              "name": {
+                "width": 300
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "9d1222f3-f927-4475-b19f-c70d95a45046",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "2d76d32a-365e-497f-967c-994fea01fbce",
+      "name": "Obsidian-v"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Knowledge",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "fieldConfig": {
+              "name": {
+                "width": 261
+              }
+            }
+          },
+          "filter": {
+            "conjunction": "and",
+            "conditions": [
+              {
+                "field": "type",
+                "operator": "is",
+                "enabled": false,
+                "value": "书籍元"
+              },
+              {
+                "field": "type",
+                "operator": "is",
+                "enabled": true,
+                "value": "读书笔记"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "d9097784-cd62-4b87-8b5c-34535b56e677",
+          "name": "表格",
+          "type": "table"
+        }
+      ],
+      "id": "925f36be-f44a-41b1-bb1e-454728606161",
+      "name": "Knowledge"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "locale": {
+      "firstDayOfWeek": "default"
+    },
+    "commands": [
+      {
+        "project": "1be54149-42af-4588-aa4d-155074e2d734",
+        "view": "c4c20481-99d2-4a45-9058-590ce112793d"
+      }
+    ],
+    "linkBehavior": "open-note"
+  }
+}

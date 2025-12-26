@@ -1,0 +1,32 @@
+views:
+  - type: table
+    name: 协议注册表
+    filters:
+      and:
+        - file.folder == "3 Protocol"
+    order:
+      - file.name
+      - AssetType
+      - Status
+      - Version
+      - LoadPolicy
+      - Date
+    columnSize: {}
+  - type: table
+    name: Knowledge注册表
+    filters:
+      and:
+        - file.folder == "1 Knowledge"
+  - type: table
+    name: 协议注册表 2
+    filters:
+      and:
+        - file.folder == "3 Protocol"
+    order:
+      - file.name
+      - AssetType
+      - Status
+      - Version
+      - LoadPolicy
+      - Date
+    columnSize: {}

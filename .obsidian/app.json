@@ -1,0 +1,29 @@
+{
+  "obsidianCss": true,
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "enabledPlugins": [],
+  "fileSortOrder": "alphabeticalReverse",
+  "alwaysUpdateLinks": true,
+  "promptDelete": true,
+  "tabSize": 4,
+  "attachmentFolderPath": "Attachments",
+  "newFileLocation": "folder",
+  "legacyEditor": false,
+  "livePreview": true,
+  "spellcheck": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 85
+  },
+  "showUnsupportedFiles": true,
+  "propertiesInDocument": "visible",
+  "useTab": false,
+  "defaultViewMode": "source",
+  "newFileFolderPath": "2 Notes",
+  "readableLineLength": false
+}

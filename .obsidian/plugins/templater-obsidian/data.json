@@ -1,0 +1,51 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Configuration/Template",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "1 Knowledge",
+      "template": "Configuration/Template/Knowledge.md"
+    },
+    {
+      "folder": "2 Procedure",
+      "template": "Configuration/Template/Procedure.md"
+    },
+    {
+      "folder": "3 Protocol",
+      "template": "Configuration/Template/Protocol.md"
+    },
+    {
+      "folder": "",
+      "template": "Configuration/Template/Prompt.md"
+    },
+    {
+      "folder": "",
+      "template": "Configuration/Template/Prompt.md"
+    },
+    {
+      "folder": "",
+      "template": "Configuration/Template/Work.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

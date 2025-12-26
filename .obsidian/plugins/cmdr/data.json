@@ -1,0 +1,91 @@
+{
+  "confirmDeletion": false,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [
+    {
+      "id": "app:reload",
+      "icon": "lucide-rotate-ccw",
+      "name": "重新加载 Obsidian（不保存当前编辑内容）",
+      "mode": "any"
+    }
+  ],
+  "pageHeader": [
+    {
+      "id": "workspace:toggle-pin",
+      "icon": "lucide-pin",
+      "name": "解锁/锁定",
+      "mode": "any"
+    },
+    {
+      "id": "workspace:split-vertical",
+      "icon": "lucide-separator-vertical",
+      "name": "左右分屏",
+      "mode": "any"
+    },
+    {
+      "id": "file-explorer:reveal-active-file",
+      "icon": "lucide-navigation",
+      "name": "文件列表: 在文件列表中显示当前文件",
+      "mode": "any"
+    },
+    {
+      "id": "editor:fold-more",
+      "icon": "lucide-fold-vertical",
+      "name": "折叠",
+      "mode": "any"
+    },
+    {
+      "id": "editor:fold-less",
+      "icon": "lucide-unfold-vertical",
+      "name": "展开",
+      "mode": "any"
+    }
+  ],
+  "macros": [
+    {
+      "macro": [
+        {
+          "action": 0,
+          "commandId": "editor:save-file"
+        }
+      ],
+      "name": "Kong1",
+      "icon": "star",
+      "startup": false
+    }
+  ],
+  "explorer": [
+    {
+      "id": "editor:open-search",
+      "icon": "lucide-search",
+      "name": "在当前笔记中查找",
+      "mode": "any"
+    }
+  ],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Templater",
+      "打开 Markdown 格式转换器",
+      "打开命令面板",
+      "插入模板"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

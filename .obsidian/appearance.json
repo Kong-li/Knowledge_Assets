@@ -1,0 +1,15 @@
+{
+  "cssTheme": "Blue Topaz",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "聚焦线路"
+  ],
+  "translucency": false,
+  "accentColor": "#2a7be5",
+  "monospaceFontFamily": "Consolas,Cascadia Code",
+  "nativeMenus": false,
+  "textFontFamily": "Cascadia Code,Comic Sans MS,Cascadia Mono",
+  "showRibbon": true,
+  "theme": "obsidian",
+  "interfaceFontFamily": "Inter"
+}
