@@ -1,6 +1,11 @@
+formulas:
+  未命名: '"https://github.com/Kong-li/Knowledge_Assets/blob/main/"+file.path'
+properties:
+  formula.未命名:
+    displayName: url path
 views:
   - type: table
-    name: 协议注册表
+    name: Protocol注册表
     filters:
       and:
         - file.folder == "3 Protocol"
@@ -11,17 +16,18 @@ views:
       - Version
       - LoadPolicy
       - Date
-    columnSize: {}
+      - file.size
+      - formula.未命名
+    sort:
+      - property: formula.未命名
+        direction: ASC
+    columnSize:
+      note.Date: 237
   - type: table
     name: Knowledge注册表
     filters:
       and:
         - file.folder == "1 Knowledge"
-  - type: table
-    name: 协议注册表 2
-    filters:
-      and:
-        - file.folder == "3 Protocol"
     order:
       - file.name
       - AssetType
@@ -29,4 +35,29 @@ views:
       - Version
       - LoadPolicy
       - Date
-    columnSize: {}
+      - file.size
+      - formula.未命名
+    sort:
+      - property: formula.未命名
+        direction: ASC
+    columnSize:
+      note.Date: 237
+  - type: table
+    name: Procedure注册表
+    filters:
+      and:
+        - file.folder == "2 Procedure"
+    order:
+      - file.name
+      - AssetType
+      - Status
+      - Version
+      - LoadPolicy
+      - Date
+      - file.size
+      - formula.未命名
+    sort:
+      - property: formula.未命名
+        direction: ASC
+    columnSize:
+      note.Date: 237
