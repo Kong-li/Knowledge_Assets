@@ -4,6 +4,7 @@ Status: Active
 Version: v1.0
 LoadPolicy: Full
 Date: 2025-12-24T16:00:59
+ProtocolLayer: Structural
 ---
 # 《认知资产标准格式协议》（CASFP）v1.0
 
@@ -127,6 +128,7 @@ LoadPolicy: Full | Reference
 - `Reference`：仅作为背景或局部引用
 
 该字段用于防止因相关性匹配导致的**逻辑结构破坏**。
+> LoadPolicy 为默认值，可在具体调用时被人工显式覆盖。
 
 ---
 

@@ -8,9 +8,10 @@ views:
     name: Protocol注册表
     filters:
       and:
-        - file.folder == "3 Protocol"
+        - file.folder == "3_Protocol"
     order:
       - file.name
+      - ProtocolLayer
       - AssetType
       - Status
       - Version
@@ -19,6 +20,8 @@ views:
       - file.size
       - formula.未命名
     sort:
+      - property: ProtocolLayer
+        direction: ASC
       - property: formula.未命名
         direction: ASC
     columnSize:
@@ -27,7 +30,29 @@ views:
     name: Knowledge注册表
     filters:
       and:
-        - file.folder == "1 Knowledge"
+        - file.folder == "1_Knowledge"
+    order:
+      - file.name
+      - AssetType
+      - Status
+      - Version
+      - LoadPolicy
+      - Date
+      - tags
+      - file.size
+      - formula.未命名
+    sort:
+      - property: formula.未命名
+        direction: ASC
+    columnSize:
+      note.Date: 189
+      note.tags: 158
+      formula.未命名: 145
+  - type: table
+    name: Procedure注册表
+    filters:
+      and:
+        - file.folder == "2_Procedure"
     order:
       - file.name
       - AssetType
@@ -43,21 +68,17 @@ views:
     columnSize:
       note.Date: 237
   - type: table
-    name: Procedure注册表
+    name: 注册表url
     filters:
       and:
-        - file.folder == "2 Procedure"
+        - file.folder == "4_Registry"
+        - file.basename != "注册表url"
     order:
       - file.name
-      - AssetType
-      - Status
-      - Version
-      - LoadPolicy
-      - Date
       - file.size
       - formula.未命名
     sort:
       - property: formula.未命名
         direction: ASC
     columnSize:
-      note.Date: 237
+      formula.未命名: 583

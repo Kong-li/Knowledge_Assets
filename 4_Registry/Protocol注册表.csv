@@ -1,0 +1,6 @@
+名称,ProtocolLayer,AssetType,Status,Version,LoadPolicy,Date,文件大小,url path
+《认知协作协议簇总览与分层说明》,Meta,Protocol,Active,v1.0,Full,2025-12-27T19:20:58,4202,https://github.com/Kong-li/Knowledge_Assets/blob/main/3_Protocol/《认知协作协议簇总览与分层说明》.md
+《认知资产标准格式协议》（CASFP）,Structural,Protocol,Active,v1.0,Full,2025-12-24T16:00:59,4689,https://github.com/Kong-li/Knowledge_Assets/blob/main/3_Protocol/《认知资产标准格式协议》（CASFP）.md
+《认知资产调度与默认加载协议》,Runtime,Protocol,Active,v1.0,Full,2025-12-26T10:59:46,4135,https://github.com/Kong-li/Knowledge_Assets/blob/main/3_Protocol/《认知资产调度与默认加载协议》.md
+《认知资产引用与链接协议》（CALP）,Structural,Protocol,Active,v1.0,Full,2025-12-24T11:26:26,5162,https://github.com/Kong-li/Knowledge_Assets/blob/main/3_Protocol/《认知资产引用与链接协议》（CALP）.md
+《AI 协作三模式定义与使用边界协议》（AIC-3M）,Mindset,Protocol,Active,v1.0,Full,2025-12-25T11:23:28,4817,https://github.com/Kong-li/Knowledge_Assets/blob/main/3_Protocol/《AI 协作三模式定义与使用边界协议》（AIC-3M）.md

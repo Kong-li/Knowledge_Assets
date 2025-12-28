@@ -4,6 +4,7 @@ Status: Active
 Version: v1.0
 LoadPolicy: Full
 Date: 2025-12-24T11:26:26
+ProtocolLayer: Structural
 ---
 # 认知资产引用与链接协议（Cognitive Asset Linking Protocol, CALP）
 

@@ -4,6 +4,7 @@ Status: Active
 Version: v1.0
 LoadPolicy: Full
 Date: 2025-12-25T11:23:28
+ProtocolLayer: Mindset
 ---
 
 ## 1. 协议目的（Purpose）
@@ -19,7 +20,7 @@ Date: 2025-12-25T11:23:28
 - 思考过程可控、可解释、可演进
     
 
-本协议属于 **意图层（Intent Layer）的 Meta Protocol**，为后续所有运行时调度与资产调用提供前置判定依据。
+本协议属于 **认知姿态层（Mindset Layer）的 Protocol**，为后续所有运行时调度与资产调用提供前置判定依据。
 
 ---
 
@@ -244,7 +245,7 @@ Date: 2025-12-25T11:23:28
 
 ## 6. 协议演进说明
 
-- 本协议为 v1.1，允许未来引入：
+- 本协议为 v1.0，允许未来引入：
     
     - 子模式
         
