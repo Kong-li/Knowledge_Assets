@@ -1,5 +1,5 @@
 formulas:
-  未命名: '"https://github.com/Kong-li/Knowledge_Assets/blob/main/"+file.path'
+  未命名: '"https://raw.githubusercontent.com/Kong-li/Knowledge_Assets/refs/heads/main/"+file.path'
 properties:
   formula.未命名:
     displayName: url path
@@ -47,7 +47,7 @@ views:
     columnSize:
       note.Date: 189
       note.tags: 158
-      formula.未命名: 145
+      formula.未命名: 463
   - type: table
     name: Procedure注册表
     filters:
@@ -67,6 +67,7 @@ views:
         direction: ASC
     columnSize:
       note.Date: 237
+      formula.未命名: 553
   - type: table
     name: 注册表url
     filters:
@@ -81,4 +82,4 @@ views:
       - property: formula.未命名
         direction: ASC
     columnSize:
-      formula.未命名: 583
+      formula.未命名: 797

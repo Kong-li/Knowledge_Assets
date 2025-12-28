@@ -15,7 +15,7 @@
               "type": "bases",
               "state": {
                 "file": "Base/注册表.base",
-                "viewName": "Protocol注册表"
+                "viewName": "注册表url"
               },
               "pinned": true,
               "icon": "lucide-table",
@@ -92,8 +92,7 @@
               "title": "《认知资产引用与链接协议》（CALP）"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -192,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3_Protocol/《认知资产标准格式协议》（CASFP）.md",
+                "file": "Base/注册表.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "《认知资产标准格式协议》（CASFP） 的大纲"
+              "title": "注册表 的大纲"
             }
           },
           {
@@ -336,18 +335,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e99bc94c69304d8c",
+  "active": "e83d53879111cb65",
   "lastOpenFiles": [
-    "3_Protocol/《认知资产引用与链接协议》（CALP）.md",
-    "Base/注册表.base",
-    "3_Protocol/《认知资产标准格式协议》（CASFP）.md",
-    "3_Protocol/《认知资产调度与默认加载协议》.md",
-    "3_Protocol/《认知协作协议簇总览与分层说明》.md",
-    "3_Protocol/《AI 协作三模式定义与使用边界协议》（AIC-3M）.md",
     "4_Registry/注册表url.csv",
     "4_Registry/Procedure注册表.csv",
     "4_Registry/Knowledge注册表.csv",
     "4_Registry/Protocol注册表.csv",
+    "3_Protocol/《认知资产标准格式协议》（CASFP）.md",
+    "3_Protocol/《认知资产引用与链接协议》（CALP）.md",
+    "Base/注册表.base",
+    "3_Protocol/《认知资产调度与默认加载协议》.md",
+    "3_Protocol/《认知协作协议簇总览与分层说明》.md",
+    "3_Protocol/《AI 协作三模式定义与使用边界协议》（AIC-3M）.md",
     "4 Registry/注册表url.csv",
     "1_Knowledge/个人期望和时代需求.md",
     "2_Procedure/书籍 → 认知资产转化 SOP.md",
