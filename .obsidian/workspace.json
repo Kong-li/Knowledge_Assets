@@ -15,81 +15,11 @@
               "type": "bases",
               "state": {
                 "file": "Base/注册表.base",
-                "viewName": "注册表url"
+                "viewName": "Protocol注册表"
               },
               "pinned": true,
               "icon": "lucide-table",
               "title": "注册表"
-            }
-          },
-          {
-            "id": "8333b7e8851d1643",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3_Protocol/《认知协作协议簇总览与分层说明》.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "《认知协作协议簇总览与分层说明》"
-            }
-          },
-          {
-            "id": "2d7bf0b75bffb183",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3_Protocol/《AI 协作三模式定义与使用边界协议》（AIC-3M）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "《AI 协作三模式定义与使用边界协议》（AIC-3M）"
-            }
-          },
-          {
-            "id": "e72fa53ac72c3cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3_Protocol/《认知资产调度与默认加载协议》.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "《认知资产调度与默认加载协议》"
-            }
-          },
-          {
-            "id": "0ab799464e42d328",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3_Protocol/《认知资产标准格式协议》（CASFP）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "《认知资产标准格式协议》（CASFP）"
-            }
-          },
-          {
-            "id": "bc4912b60c5a1b4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "3_Protocol/《认知资产引用与链接协议》（CALP）.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "《认知资产引用与链接协议》（CALP）"
             }
           }
         ]
@@ -294,8 +224,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -337,43 +267,44 @@
   },
   "active": "e83d53879111cb65",
   "lastOpenFiles": [
-    "4_Registry/注册表url.csv",
-    "4_Registry/Procedure注册表.csv",
-    "4_Registry/Knowledge注册表.csv",
     "4_Registry/Protocol注册表.csv",
-    "3_Protocol/《认知资产标准格式协议》（CASFP）.md",
-    "3_Protocol/《认知资产引用与链接协议》（CALP）.md",
-    "Base/注册表.base",
+    "4_Registry/注册表url.csv",
+    "4_Registry/Knowledge注册表.csv",
+    "4_Registry/Procedure注册表.csv",
+    "4_Registry",
     "3_Protocol/《认知资产调度与默认加载协议》.md",
     "3_Protocol/《认知协作协议簇总览与分层说明》.md",
+    "3_Protocol/《认知资产标准格式协议》（CASFP）.md",
+    "3_Protocol/《认知资产引用与链接协议》（CALP）.md",
     "3_Protocol/《AI 协作三模式定义与使用边界协议》（AIC-3M）.md",
-    "4 Registry/注册表url.csv",
-    "1_Knowledge/个人期望和时代需求.md",
+    "3_Protocol",
     "2_Procedure/书籍 → 认知资产转化 SOP.md",
-    "4 Registry/Procedure注册表.csv",
-    "4 Registry/Knowledge注册表.csv",
-    "4 Registry/Protocol注册表.csv",
+    "2_Procedure",
+    "1_Knowledge/个人期望和时代需求.md",
+    "1_Knowledge",
+    "1 Knowledge/个人期望和时代需求.md",
+    "2 Procedure/书籍 → 认知资产转化 SOP.md",
     "Configuration/Template/Knowledge.md",
+    "3 Protocol/《认知资产标准格式协议》（CASFP）.md",
     "Configuration/Template/Procedure.md",
+    "Base/注册表.base",
+    "3 Protocol/《认知资产调度与默认加载协议》.md",
+    "3 Protocol/《AI 协作三模式定义与使用边界协议》（AIC-3M）.md",
     "Configuration/Template/Protocol.md",
+    "3 Protocol/《认知资产引用与链接协议》（CALP）.md",
     "4 Registry/协议注册表.csv",
     "Configuration/Template/Prompt.md",
     "Configuration/Memories/Python程序要求.md",
     "Configuration/Memories/obsidian笔记格式要求.md",
+    "Base",
     "Configuration/Template/Note.md",
     "Configuration/Template/Blog.md",
     "Configuration/Template/Work.md",
     "Configuration/Template/Project_sub.md",
     "Configuration/Template/Project.md",
     "Configuration/Template/Meta.md",
-    "1 Resources/2 Blog/PKMer_文献组织方法.md",
-    "2 Notes/Protocol：认知资产标准格式协议.md",
     "3 Analysis/长期记忆.canvas",
     "3 Analysis/草图.canvas",
-    "2 Notes/JS逆向-工作流程.md",
-    "2 Notes/AI读书工作流.md",
-    "2 Notes/如何系统思考-读书笔记.md",
-    "2 Meta/Book/《如何系统思考》.md",
     "3 Analysis/AI辅助学习.canvas",
     "3 Analysis/Done/年度述职.canvas",
     "3 Analysis/能力中台系统-解决方案.canvas",
